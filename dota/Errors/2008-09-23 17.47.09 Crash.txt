@@ -1,0 +1,51 @@
+==============================================================================
+Warcraft III (build 6328)
+
+Exe:      D:\Archivos de programa\Warcraft III\war3.exe
+Time:     Sep 23, 2008  5:47:09.937 PM
+User:     Priscila1
+Computer: PRISCILA
+------------------------------------------------------------------------------
+
+This application has encountered a critical error:
+
+FATAL ERROR!
+
+Program:	D:\Archivos de programa\Warcraft III\war3.exe
+Exception:	0xC00000FD (STACK_OVERFLOW) at 001B:6F7D00E7
+
+
+
+
+War3Build: 1.22.0.6328
+Played Maps\Download\Anime Fight Beta 1.500.w3x
+Player  0 [xPL0d]-HuNtEr    	Race Human	StartLoc  0
+Player  1 Diabl0III         	Race Human	StartLoc  1
+Player  2 [Cs]Chimera       	Race Human	StartLoc  2
+Player  3 nami200           	Race Human	StartLoc  3
+Player  4 Player 5          	Race Human	StartLoc  4
+Player  5 Player 6          	Race Human	StartLoc  5
+Player  6 Player 7          	Race Human	StartLoc  6
+Player  7 Player 8          	Race Human	StartLoc  7
+Player  8 FullMetal-Alchi   	Race Human	StartLoc  8
+Player  9 R0N41D            	Race Human	StartLoc  9
+Player 10 -TGoD[-Warrior    	Race Human	StartLoc 10
+Player 11 sanicxd           	Race Human	StartLoc 11
+------------------------------------------------------------------------------
+
+----------------------------------------
+    x86 Registers
+----------------------------------------
+
+EAX=00032000  EBX=00000000  ECX=00032EC8  EDX=00038790  ESI=17A6A6F8
+EDI=129D4A20  EBP=0003888C  ESP=00038730  EIP=6F7D00E7  FLG=00010206
+CS =001B      DS =0023      ES =0023      SS =0023      FS =003B      GS =0000
+
+
+----------------------------------------
+    Stack Trace (Manual)
+----------------------------------------
+
+Address  Frame    Logical addr  Module
+
+6F7D00E7 0003888C 0001:007CF0E7 D:\Archivos de programa\Warcraft III\Game.dll

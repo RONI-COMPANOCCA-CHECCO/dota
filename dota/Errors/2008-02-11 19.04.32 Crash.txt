@@ -1,0 +1,42 @@
+==============================================================================
+Warcraft III (build 6263)
+
+Exe:      D:\Archivos de programa\Warcraft III\War3.exe
+Time:     Feb 11, 2008  7:04:32.781 PM
+User:     PC
+Computer: OPHELIA
+------------------------------------------------------------------------------
+
+This application has encountered a critical error:
+
+FATAL ERROR!
+
+Program:	D:\Archivos de programa\Warcraft III\War3.exe
+Exception:	0xC0000005 (ACCESS_VIOLATION) at 001B:01813B89
+
+The instruction at '0x01813B89' referenced memory at '0x01874380'.
+The memory could not be 'written'.
+
+------------------------------------------------------------------------------
+
+----------------------------------------
+    x86 Registers
+----------------------------------------
+
+EAX=00000000  EBX=7C809728  ECX=00000036  EDX=01874380  ESI=01874380
+EDI=01874380  EBP=00000000  ESP=08D7FF6C  EIP=01813B89  FLG=00010246
+CS =001B      DS =0023      ES =0023      SS =0023      FS =003B      GS =0000
+
+
+----------------------------------------
+    Stack Trace (Manual)
+----------------------------------------
+
+Address  Frame    Logical addr  Module
+
+01813B89 00000000 0000:00000000 D:\Archivos de programa\Warcraft III\War3.exe
+
+----------------------------------------
+    Stack Trace (Using DBGHELP.DLL)
+----------------------------------------
+

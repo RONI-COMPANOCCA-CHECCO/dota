@@ -1,0 +1,9 @@
+-added Highlands Theme.
+-added Synergy Theme "City"*.
+-adapted cliffs in Beach Theme to older changes to clifftypes.
+-UI-only-Themes can now be combined with any other Theme. Use the Terrain Theme first, then the UI-only-Theme.
+-added flush command to the scripts, preventing War3Patch.mpq from growing.
+-changed some details concerning file replacement to reduce the size and improve the performance of the DTM**
+
+*) best used with the new command -terrain city2
+**) using sylk tables for terrain texture replacements, simplified restoration process

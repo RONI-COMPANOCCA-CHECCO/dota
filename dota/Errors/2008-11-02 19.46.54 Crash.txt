@@ -1,0 +1,218 @@
+==============================================================================
+Warcraft III (build 6328)
+
+Exe:      D:\Archivos de programa\Warcraft III\war3.exe
+Time:     Nov  2, 2008  7:46:54.109 PM
+User:     Priscila1
+Computer: PRISCILA
+------------------------------------------------------------------------------
+
+This application has encountered a critical error:
+
+FATAL ERROR!
+
+Program:	D:\Archivos de programa\Warcraft III\war3.exe
+Exception:	0xC0000005 (ACCESS_VIOLATION) at 001B:6F3FC110
+
+The instruction at '0x6F3FC110' referenced memory at '0x0000003C'.
+The memory could not be 'read'.
+
+
+War3Build: 1.22.0.6328
+Played Maps\Download\Fight Of Characters Revolution.w3x
+Player  0 [Xclamp]Umi       	Race NightElf	StartLoc  0
+Player  1 Neverking         	Race NightElf	StartLoc  1
+Player  2 [Sannin]-Jiraia   	Race NightElf	StartLoc  2
+Player  3 SoL[BadGuy]       	Race NightElf	StartLoc  3
+Player  4                   	Race NightElf	StartLoc  4
+Player  5 [KTP]-Phoenix     	Race NightElf	StartLoc  5
+Player  6 KonohaSempu       	Race NightElf	StartLoc  6
+Player  7 LordKaeltas       	Race NightElf	StartLoc  7
+Player  8                   	Race NightElf	StartLoc  8
+Player  9 [z][e][r][o]      	Race NightElf	StartLoc  9
+Player 10 Player 11         	Race NightElf	StartLoc 10
+Player 11 Player 12         	Race NightElf	StartLoc 11
+------------------------------------------------------------------------------
+
+----------------------------------------
+    x86 Registers
+----------------------------------------
+
+EAX=00000000  EBX=00000008  ECX=00000000  EDX=08810E18  ESI=6F9227C1
+EDI=FFFFFFFF  EBP=0012E640  ESP=0012E584  EIP=6F3FC110  FLG=00010206
+CS =001B      DS =0023      ES =0023      SS =0023      FS =003B      GS =0000
+
+
+----------------------------------------
+    Stack Trace (Manual)
+----------------------------------------
+
+Address  Frame    Logical addr  Module
+
+6F3FC110 0012E640 0001:003FB110 D:\Archivos de programa\Warcraft III\Game.dll
+
+----------------------------------------
+    Stack Trace (Using DBGHELP.DLL)
+----------------------------------------
+
+6F3FC110 Game.dll     <unknown symbol>+0 (0x1016FA00,0xE7B4A914,0x00000001,0x14FF0088)
+6F44F738 Game.dll     <unknown symbol>+0 (0x00000000,0x00000000,0x00000000,0x00000000)
+
+
+----------------------------------------
+    Loaded Modules
+----------------------------------------
+
+0x003A0000 - 0x003A9000  Normaliz.dll
+0x00400000 - 0x0047D000  war3.exe
+0x01890000 - 0x01B66000  xpsp2res.dll
+0x01B80000 - 0x01C2A000  D3DX81ab.dll
+0x021B0000 - 0x021E7000  dxhook.dll
+0x058D0000 - 0x058DA000  hotkeyhook.dll
+0x10000000 - 0x1000E000  w3lh.dll
+0x15000000 - 0x15061000  Storm.dll
+0x21100000 - 0x2115F000  mss32.dll
+0x22600000 - 0x22616000  Mssfast.m3d
+0x22700000 - 0x22717000  Mssdolby.m3d
+0x22C00000 - 0x22C18000  Msseax2.m3d
+0x24600000 - 0x24611000  Reverb3.flt
+0x26F00000 - 0x26F2A000  Mp3dec.asi
+0x430B0000 - 0x430F5000  iertutil.dll
+0x43330000 - 0x43400000  WININET.dll
+0x58C30000 - 0x58CCA000  COMCTL32.dll
+0x597F0000 - 0x59845000  netapi32.dll
+0x5B150000 - 0x5B188000  uxtheme.dll
+0x5D4B0000 - 0x5D551000  dbghelp.dll
+0x5F120000 - 0x5F1EC000  OPENGL32.dll
+0x5FEA0000 - 0x5FEC1000  GLU32.dll
+0x60000000 - 0x6005D000  ijl15.dll
+0x66740000 - 0x66799000  hnetcfg.dll
+0x68000000 - 0x68036000  rsaenh.dll
+0x6DEA0000 - 0x6DEA6000  d3d8thk.dll
+0x6DEB0000 - 0x6DFD8000  d3d8.dll
+0x6F000000 - 0x6FBA0000  Game.dll
+0x719D0000 - 0x71A10000  mswsock.dll
+0x71A10000 - 0x71A18000  wshtcpip.dll
+0x71A20000 - 0x71A28000  WS2HELP.dll
+0x71A30000 - 0x71A45000  WS2_32.dll
+0x71A50000 - 0x71A5A000  WSOCK32.dll
+0x71B90000 - 0x71BA3000  SAMLIB.dll
+0x72C90000 - 0x72C98000  msacm32.drv
+0x72CA0000 - 0x72CA9000  wdmaud.drv
+0x736E0000 - 0x7372B000  DDRAW.dll
+0x73B40000 - 0x73B46000  DCIMAN32.dll
+0x73E60000 - 0x73E64000  KsUser.dll
+0x73E90000 - 0x73EEC000  DSOUND.DLL
+0x746B0000 - 0x746FC000  MSCTF.dll
+0x75160000 - 0x7518E000  msctfime.ime
+0x76340000 - 0x7635D000  IMM32.dll
+0x76360000 - 0x763AA000  comdlg32.dll
+0x76630000 - 0x766E5000  USERENV.dll
+0x76B00000 - 0x76B2E000  WINMM.dll
+0x76BF0000 - 0x76C1E000  WINTRUST.dll
+0x76C50000 - 0x76C78000  IMAGEHLP.dll
+0x76F20000 - 0x76F4D000  WLDAP32.dll
+0x76F90000 - 0x7700F000  CLBCATQ.DLL
+0x77010000 - 0x770E0000  COMRes.dll
+0x770F0000 - 0x7717B000  OLEAUT32.dll
+0x773A0000 - 0x774A3000  comctl32.dll
+0x774B0000 - 0x775ED000  ole32.dll
+0x77660000 - 0x77681000  NTMARTA.DLL
+0x77A50000 - 0x77AE6000  CRYPT32.dll
+0x77AF0000 - 0x77B02000  MSASN1.dll
+0x77BA0000 - 0x77BA7000  midimap.dll
+0x77BB0000 - 0x77BC5000  MSACM32.dll
+0x77BD0000 - 0x77BD8000  VERSION.dll
+0x77BE0000 - 0x77C38000  msvcrt.dll
+0x77DA0000 - 0x77E4C000  ADVAPI32.dll
+0x77E50000 - 0x77EE2000  RPCRT4.dll
+0x77EF0000 - 0x77F39000  GDI32.dll
+0x77F40000 - 0x77FB6000  SHLWAPI.dll
+0x77FC0000 - 0x77FD1000  Secur32.dll
+0x78130000 - 0x781CB000  MSVCR80.dll
+0x7C800000 - 0x7C903000  kernel32.dll
+0x7C910000 - 0x7C9C5000  ntdll.dll
+0x7E390000 - 0x7E421000  USER32.dll
+0x7E6A0000 - 0x7EEC1000  SHELL32.dll
+
+
+----------------------------------------
+    Memory Dump
+----------------------------------------
+
+Code: 16 bytes starting at (EIP = 6F3FC110)
+
+6F3FC110: 8B 41 3C 23  41 38 83 C1  38 83 F8 FF  75 03 33 C0  .A<#A8..8...u.3.
+
+
+Stack: 1024 bytes starting at (ESP = 0012E584)
+
+* = addr               **                                         *           
+0012E580: 00 00 00 00  AF B5 3B 6F  C1 27 92 6F  E8 D9 44 6F  ......;o.'.o..Do
+0012E590: 00 FA 16 10  4C 31 DD 00  CC D9 44 6F  00 FA 16 10  ....L1....Do....
+0012E5A0: 88 00 FF 14  08 00 00 00  00 00 00 00  60 01 0D 00  ............`...
+0012E5B0: 34 03 79 01  E0 E5 12 00  B8 54 80 6F  00 00 00 00  4.y......T.o....
+0012E5C0: A0 D5 29 6F  8C AA B4 E7  44 15 63 01  C8 4D B5 05  ..)o....D.c..M..
+0012E5D0: 00 00 00 00  44 01 0D 00  00 00 00 00  6C 67 61 2B  ....D.......lga+
+0012E5E0: 5C E6 12 00  88 54 80 6F  FF FF FF FF  78 FB 29 6F  \....T.o....x.)o
+0012E5F0: 44 15 63 01  01 00 00 00  44 15 63 01  C8 7E 19 10  D.c.....D.c..~..
+0012E600: E1 09 45 41  00 00 00 00  C8 7E 19 10  97 3C 03 15  ..EA.....~...<..
+0012E610: 40 77 17 10  C8 7E 19 10  FF FF FF 7F  B0 00 B4 08  @w...~..........
+0012E620: 00 00 00 00  E4 E5 12 00  4C 31 DD 00  50 07 42 09  ........L1..P.B.
+0012E630: 88 00 FF 14  01 00 00 00  70 B5 3B 6F  04 A9 B4 E7  ........p.;o....
+0012E640: 04 00 00 00  38 F7 44 6F  00 FA 16 10  14 A9 B4 E7  ....8.Do........
+0012E650: 01 00 00 00  88 00 FF 14  00 00 00 00  AC 00 FF 14  ................
+0012E660: B0 7C 80 6F  FF FF FF FF  06 C4 2C 6F  04 00 00 00  .|.o......,o....
+0012E670: 44 15 63 01  00 00 00 00  38 A9 B4 E7  6C 01 19 12  D.c.....8...l...
+0012E680: 44 28 C6 12  44 28 C6 12  DC 04 BA 04  00 00 00 00  D(..D(..........
+0012E690: 01 00 00 00  00 00 00 00  C0 E8 12 00  00 00 00 00  ................
+0012E6A0: 90 00 7E 08  00 00 00 00  01 00 00 00  20 4C B5 05  ..~......... L..
+0012E6B0: 00 00 00 00  01 00 00 00  00 00 00 00  01 00 00 00  ................
+0012E6C0: 01 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0012E6D0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0012E6E0: 00 00 00 00  04 E8 12 00  C8 DA 81 6F  FF FF FF FF  ...........o....
+0012E6F0: 53 03 45 6F  58 B1 0B 10  9C E7 12 00  E0 93 04 00  S.EoX...........
+0012E700: 00 00 00 00  1D 02 00 00  88 00 FF 14  CC 00 F9 05  ................
+0012E710: 9C E7 12 00  04 C0 43 6F  48 B0 0B 10  00 00 00 00  ......CoH.......
+0012E720: 9C E7 12 00  E0 93 04 00  00 00 00 00  00 00 00 00  ................
+0012E730: C0 00 F9 05  84 AB 7E 12  86 6F 3A 6F  00 00 00 00  ......~..o:o....
+0012E740: 9C E7 12 00  E0 93 04 00  00 00 00 00  00 00 00 00  ................
+0012E750: 00 00 00 00  54 55 FA 05  00 00 00 00  C4 31 CD 07  ....TU.......1..
+0012E760: C4 4D 3B 6F  1D 02 00 00  9C E7 12 00  84 AB 7E 12  .M;o..........~.
+0012E770: 00 00 00 00  00 00 00 00  34 AB 7E 12  B5 61 43 6F  ........4.~..aCo
+0012E780: 9C E7 12 00  84 AB 7E 12  00 00 00 00  00 00 00 00  ......~.........
+0012E790: 34 AB 7E 12  84 AB 7E 12  34 AB 7E 12  00 00 00 00  4.~...~.4.~.....
+0012E7A0: 56 7D 43 6F  84 AB 7E 12  00 00 00 00  34 AB 7E 12  V}Co..~.....4.~.
+0012E7B0: C4 E8 12 00  DC 04 BA 04  34 AB 7E 12  F4 27 C6 12  ........4.~..'..
+0012E7C0: 50 07 00 12  58 AB 7E 12  DC 04 BA 04  00 0C 3A 6F  P...X.~.......:o
+0012E7D0: 00 00 00 00  9C A8 B4 E7  F4 27 C6 12  F6 EF 39 6F  .........'....9o
+0012E7E0: C4 E8 12 00  F4 27 C6 12  7A 80 43 6F  91 10 43 6F  .....'..z.Co..Co
+0012E7F0: 01 00 00 00  BC A8 B4 E7  34 01 19 12  F4 27 C6 12  ........4....'..
+0012E800: 34 AB 7E 12  54 E8 12 00  58 C7 81 6F  00 00 00 00  4.~.T...X..o....
+0012E810: 1E 79 52 6F  7D A7 61 6F  C4 E8 12 00  64 A7 B4 E7  .yRo}.ao....d...
+0012E820: C4 E8 12 00  BC 00 34 04  00 00 00 00  00 00 00 00  ......4.........
+0012E830: 00 00 00 00  42 00 00 00  34 01 19 12  84 BB C3 12  ....B...4.......
+0012E840: 84 BB C3 12  84 BB C3 12  50 A8 61 6F  00 00 00 00  ........P.ao....
+0012E850: A8 FC 82 6F  E8 E8 12 00  A8 FC 82 6F  00 00 00 00  ...o.......o....
+0012E860: 50 A8 61 6F  62 00 0A 00  C4 E8 12 00  C4 E8 12 00  P.aob...........
+0012E870: F8 E1 95 6F  21 9B 61 6F  62 00 0A 00  C4 E8 12 00  ...o!.aob.......
+0012E880: B8 00 34 04  57 7C 52 6F  C4 E8 12 00  B8 00 34 04  ..4.W|Ro......4.
+0012E890: C4 E8 12 00  B8 00 34 04  07 C6 52 6F  C4 E8 12 00  ......4...Ro....
+0012E8A0: 2C E9 12 00  B0 00 34 04  20 2A 53 6F  8C 42 86 6F  ,.....4. *So.B.o
+0012E8B0: 00 00 00 00  A8 08 00 00  F8 A7 B4 E7  00 00 00 00  ................
+0012E8C0: 00 00 00 00  D8 E3 93 6F  00 00 00 00  62 00 0A 00  .......o....b...
+0012E8D0: 00 00 00 00  00 00 00 00  62 00 00 00  62 6F 00 00  ........b...bo..
+0012E8E0: 8A 57 04 00  01 00 00 00  AC F2 12 00  88 4A 82 6F  .W...........J.o
+0012E8F0: 00 00 00 00  3E 13 54 6F  2C E9 12 00  00 00 00 00  ....>.To,.......
+0012E900: 8C 42 86 6F  00 00 00 00  00 00 00 00  A8 08 00 00  .B.o............
+0012E910: 00 00 00 00  5C A6 B4 E7  00 00 00 00  B0 00 34 04  ....\.........4.
+0012E920: 1F 00 00 00  00 00 00 00  00 00 00 62  F0 1A 92 6F  ...........b...o
+0012E930: A7 EE 12 00  00 00 00 00  FF FF FF FF  0D 00 00 00  ................
+0012E940: 0D 00 00 00  00 00 00 00  FA 00 47 08  D8 F8 12 00  ..........G.....
+0012E950: C0 00 F9 05  B0 00 34 04  0A 00 00 00  FB B6 4B 6F  ......4.......Ko
+0012E960: 49 DC 18 0A  31 00 00 00  C8 05 CC 04  87 B7 4B 6F  I...1.........Ko
+0012E970: 0F 00 00 00  31 00 00 00  9C 51 8A 0A  E8 E9 12 00  ....1....Q......
+0012E980: E8 E9 12 00  9C 51 8A 0A  E8 E9 12 00  93 93 4B 6F  .....Q........Ko
+
+
+------------------------------------------------------------------------------

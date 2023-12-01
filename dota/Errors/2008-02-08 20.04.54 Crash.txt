@@ -1,0 +1,141 @@
+==============================================================================
+Warcraft III (build 6263)
+
+Exe:      D:\Archivos de programa\Warcraft III\War3.exe
+Time:     Feb  8, 2008  8:04:54.356 PM
+User:     PC
+Computer: OPHELIA
+------------------------------------------------------------------------------
+
+This application has encountered a critical error:
+
+FATAL ERROR!
+
+Program:	D:\Archivos de programa\Warcraft III\War3.exe
+Exception:	0xC0000005 (ACCESS_VIOLATION) at 001B:08903B89
+
+The instruction at '0x08903B89' referenced memory at '0x089752B0'.
+The memory could not be 'written'.
+
+------------------------------------------------------------------------------
+
+----------------------------------------
+    x86 Registers
+----------------------------------------
+
+EAX=00000000  EBX=7C809728  ECX=00000036  EDX=089752B0  ESI=089752B0
+EDI=089752B0  EBP=00000000  ESP=08C4FF6C  EIP=08903B89  FLG=00010246
+CS =001B      DS =0023      ES =0023      SS =0023      FS =003B      GS =0000
+
+
+----------------------------------------
+    Stack Trace (Manual)
+----------------------------------------
+
+Address  Frame    Logical addr  Module
+
+08903B89 00000000 0000:00000000 D:\Archivos de programa\Warcraft III\War3.exe
+
+----------------------------------------
+    Stack Trace (Using DBGHELP.DLL)
+----------------------------------------
+
+08903B89 <unknown module> <unknown symbol>+0 (0x08903D06,0x089752B0,0x7C802540,0x08B4F7A4)
+
+
+----------------------------------------
+    Loaded Modules
+----------------------------------------
+
+0x00380000 - 0x00389000  Normaliz.dll
+0x00400000 - 0x0057B740  War3.exe
+0x01A20000 - 0x01A57000  dxhook.dll
+0x05590000 - 0x0559A000  hotkeyhook.dll
+0x0FFD0000 - 0x0FFF8000  rsaenh.dll
+0x10000000 - 0x100AA000  D3DX81ab.dll
+0x13370000 - 0x13377000  w3lh.dll
+0x15000000 - 0x15067000  storm.dll
+0x20000000 - 0x202D6000  xpsp2res.dll
+0x21100000 - 0x2115F000  mss32.dll
+0x430B0000 - 0x430F5000  iertutil.dll
+0x43330000 - 0x433FF000  wininet.dll
+0x58C30000 - 0x58CCA000  COMCTL32.dll
+0x597F0000 - 0x59844000  netapi32.dll
+0x5B150000 - 0x5B188000  uxtheme.dll
+0x5D4B0000 - 0x5D551000  dbghelp.dll
+0x5F120000 - 0x5F1EC000  OPENGL32.dll
+0x5FEA0000 - 0x5FEC1000  GLU32.dll
+0x60000000 - 0x6005D000  ijl15.dll
+0x6DEA0000 - 0x6DEA6000  d3d8thk.dll
+0x6DEB0000 - 0x6DFD8000  d3d8.dll
+0x6F000000 - 0x6F924000  Game.dll
+0x719D0000 - 0x71A10000  mswsock.dll
+0x71A20000 - 0x71A28000  WS2HELP.dll
+0x71A30000 - 0x71A45000  WS2_32.dll
+0x71A50000 - 0x71A5A000  wsock32.dll
+0x71B90000 - 0x71BA3000  SAMLIB.dll
+0x72C90000 - 0x72C98000  msacm32.drv
+0x72CA0000 - 0x72CA9000  wdmaud.drv
+0x736E0000 - 0x73729000  DDRAW.dll
+0x73B40000 - 0x73B46000  DCIMAN32.dll
+0x73E60000 - 0x73E64000  KsUser.dll
+0x73E90000 - 0x73EEC000  DSOUND.DLL
+0x746B0000 - 0x746FB000  MSCTF.dll
+0x75160000 - 0x7518E000  msctfime.ime
+0x76340000 - 0x7635D000  imm32.dll
+0x76360000 - 0x763AA000  comdlg32.dll
+0x76630000 - 0x766E4000  USERENV.dll
+0x76B00000 - 0x76B2E000  winmm.dll
+0x76BF0000 - 0x76C1E000  WINTRUST.dll
+0x76C50000 - 0x76C78000  IMAGEHLP.dll
+0x76F20000 - 0x76F4D000  WLDAP32.dll
+0x76F90000 - 0x7700F000  CLBCATQ.DLL
+0x77010000 - 0x770E0000  COMRes.dll
+0x770F0000 - 0x7717B000  OLEAUT32.dll
+0x773A0000 - 0x774A3000  comctl32.dll
+0x774B0000 - 0x775ED000  ole32.dll
+0x77660000 - 0x77681000  NTMARTA.DLL
+0x77A50000 - 0x77AE5000  CRYPT32.dll
+0x77AF0000 - 0x77B02000  MSASN1.dll
+0x77B10000 - 0x77B32000  apphelp.dll
+0x77BA0000 - 0x77BA7000  midimap.dll
+0x77BB0000 - 0x77BC5000  MSACM32.dll
+0x77BD0000 - 0x77BD8000  VERSION.dll
+0x77BE0000 - 0x77C38000  msvcrt.dll
+0x77DA0000 - 0x77E4C000  ADVAPI32.dll
+0x77E50000 - 0x77EE2000  RPCRT4.dll
+0x77EF0000 - 0x77F37000  GDI32.dll
+0x77F40000 - 0x77FB6000  SHLWAPI.dll
+0x77FC0000 - 0x77FD1000  Secur32.dll
+0x7C800000 - 0x7C902000  kernel32.dll
+0x7C910000 - 0x7C9C6000  ntdll.dll
+0x7E390000 - 0x7E420000  user32.dll
+0x7E6A0000 - 0x7EEC1000  SHELL32.dll
+
+
+----------------------------------------
+    Memory Dump
+----------------------------------------
+
+Code: 16 bytes starting at (EIP = 08903B89)
+
+08903B89: <can't read from this address>
+
+
+Stack: 1024 bytes starting at (ESP = 08C4FF6C)
+
+* = addr                                         **                       *   
+08C4FF60: 00 00 9D 01  40 5A 9D 71  78 01 97 08  00 00 00 00  ....@Z.qx.......
+08C4FF70: 06 3D 90 08  B0 52 97 08  40 25 80 7C  A4 F7 B4 08  .=...R..@%.|....
+08C4FF80: 36 27 00 00  00 00 00 00  1E 43 90 08  E5 03 00 00  6'.......C......
+08C4FF90: 00 00 00 00  B0 52 97 08  00 00 00 00  34 00 00 C0  .....R......4...
+08C4FFA0: A4 F7 B4 08  EC FF C4 08  94 24 00 00  B0 52 97 08  .........$...R..
+08C4FFB0: 00 00 00 00  80 24 00 00  83 B6 80 7C  94 24 00 00  .....$.....|.$..
+08C4FFC0: 34 00 00 C0  A4 F7 B4 08  94 24 00 00  00 00 F4 7F  4........$......
+08C4FFD0: 05 00 00 C0  C0 FF C4 08  90 FB C4 08  FF FF FF FF  ................
+08C4FFE0: A8 9A 83 7C  90 B6 80 7C  00 00 00 00  00 00 00 00  ...|...|........
+08C4FFF0: 00 00 00 00  C0 42 90 08  94 24 00 00  00 00 00 00  .....B...$......
+08C50000: <can't read from this address>
+
+
+------------------------------------------------------------------------------

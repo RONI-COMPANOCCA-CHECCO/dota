@@ -1,0 +1,219 @@
+==============================================================================
+Warcraft III (build 6263)
+
+Exe:      D:\archivos de programa\Warcraft III\War3.exe
+Time:     Mar 25, 2007 11:43:09.812 AM
+User:     w
+Computer: SHAMPOO
+------------------------------------------------------------------------------
+
+This application has encountered a critical error:
+
+FATAL ERROR!
+
+Program:	D:\archivos de programa\Warcraft III\War3.exe
+Exception:	0xC0000005 (ACCESS_VIOLATION) at 001B:6F6FFD56
+
+The instruction at '0x6F6FFD56' referenced memory at '0x00000040'.
+The memory could not be 'read'.
+
+------------------------------------------------------------------------------
+
+----------------------------------------
+    x86 Registers
+----------------------------------------
+
+EAX=FFFFFFFF  EBX=000005B0  ECX=00000000  EDX=A2BEA135  ESI=09330DEA
+EDI=000005A2  EBP=048DFE2C  ESP=048DF810  EIP=6F6FFD56  FLG=00010246
+CS =001B      DS =0023      ES =0023      SS =0023      FS =003B      GS =0000
+
+
+----------------------------------------
+    Stack Trace (Manual)
+----------------------------------------
+
+Address  Frame    Logical addr  Module
+
+6F6FFD56 048DFE2C 0001:006FED56 D:\archivos de programa\Warcraft III\Game.dll
+6F6FEECE 048DFE44 0001:006FDECE D:\archivos de programa\Warcraft III\Game.dll
+6F6E9EFD 048DFE9C 0001:006E8EFD D:\archivos de programa\Warcraft III\Game.dll
+6F6FED09 048DFEDC 0001:006FDD09 D:\archivos de programa\Warcraft III\Game.dll
+0041934B 048DFF0C 0001:0001834B D:\archivos de programa\Warcraft III\War3.exe
+0041A028 048DFF2C 0001:00019028 D:\archivos de programa\Warcraft III\War3.exe
+00415770 048DFF70 0001:00014770 D:\archivos de programa\Warcraft III\War3.exe
+00415860 048DFF80 0001:00014860 D:\archivos de programa\Warcraft III\War3.exe
+77C0A3B0 048DFFB4 0001:000293B0 C:\WINDOWS\system32\msvcrt.dll
+7C80B50B 048DFFEC 0001:0000A50B C:\WINDOWS\system32\kernel32.dll
+
+----------------------------------------
+    Stack Trace (Using DBGHELP.DLL)
+----------------------------------------
+
+6F6FFD56 Game.dll     <unknown symbol>+0 (0x00000000,0x09330DDC,0x000005B0,0x00000000)
+6F6FEECE Game.dll     <unknown symbol>+0 (0x048DFEF0,0x1805B443,0x09330DDC,0x000005B0)
+6F6E9EFD Game.dll     <unknown symbol>+0 (0x09330DD8,0x09330DD8,0x00000000,0x048DFF38)
+6F6FED09 Game.dll     <unknown symbol>+0 (0x09330D60,0x09330D78,0xFFFFFFFF,0x00000000)
+0041934B War3.exe     <unknown symbol>+0 (0x09330DD8,0x000005B4,0x048DFF38,0x00000000)
+0041A028 War3.exe     Fh+23512 (0x09331394,0x00000000,0x00000001,0x7C91EE18)
+00415770 War3.exe     Fh+4896 (0x09330D60,0x00398790,0x048DFFB4,0x77C0A3B0)
+00415860 War3.exe     Fh+5136 (0x043E00B0,0x7C91EE18,0x7C920738,0x00398928)
+77C0A3B0 msvcrt.dll   endthreadex+169 (0x00398928,0x7C91EE18,0x7C920738,0x00398928)
+7C80B50B kernel32.dll GetModuleFileNameA+436 (0x77C0A341,0x00398928,0x00000000,0x0824AFC0)
+
+
+----------------------------------------
+    Loaded Modules
+----------------------------------------
+
+0x00400000 - 0x0057B740  War3.exe
+0x00E60000 - 0x00E97000  dxhook.dll
+0x08CE0000 - 0x08CEA000  hotkeyhook.dll
+0x0FFD0000 - 0x0FFF8000  rsaenh.dll
+0x10000000 - 0x100AA000  D3DX81ab.dll
+0x13370000 - 0x13377000  w3lh.dll
+0x15000000 - 0x15067000  storm.dll
+0x20000000 - 0x202D6000  xpsp2res.dll
+0x21100000 - 0x2115F000  mss32.dll
+0x22600000 - 0x22616000  Mssfast.m3d
+0x22700000 - 0x22717000  Mssdolby.m3d
+0x22C00000 - 0x22C18000  Msseax2.m3d
+0x24600000 - 0x24611000  Reverb3.flt
+0x26F00000 - 0x26F2A000  Mp3dec.asi
+0x4D550000 - 0x4D5A8000  WINHTTP.dll
+0x58C30000 - 0x58CC7000  COMCTL32.dll
+0x597F0000 - 0x59844000  netapi32.dll
+0x5B150000 - 0x5B188000  uxtheme.dll
+0x5D4B0000 - 0x5D551000  dbghelp.dll
+0x5F120000 - 0x5F1EC000  OPENGL32.dll
+0x5FEA0000 - 0x5FEC1000  GLU32.dll
+0x60000000 - 0x6005D000  ijl15.dll
+0x65780000 - 0x657A3000  AhJsctNs.dll
+0x66740000 - 0x66799000  hnetcfg.dll
+0x6DEA0000 - 0x6DEA6000  d3d8thk.dll
+0x6DEB0000 - 0x6DFD8000  d3d8.dll
+0x6F000000 - 0x6F924000  Game.dll
+0x719D0000 - 0x71A10000  mswsock.dll
+0x71A10000 - 0x71A18000  wshtcpip.dll
+0x71A20000 - 0x71A28000  WS2HELP.dll
+0x71A30000 - 0x71A45000  WS2_32.dll
+0x71A50000 - 0x71A5A000  wsock32.dll
+0x71B90000 - 0x71BA3000  SAMLIB.dll
+0x72250000 - 0x72255000  SensApi.dll
+0x72C90000 - 0x72C98000  msacm32.drv
+0x72CA0000 - 0x72CA9000  wdmaud.drv
+0x736E0000 - 0x73729000  DDRAW.dll
+0x73B40000 - 0x73B46000  DCIMAN32.dll
+0x73E60000 - 0x73E64000  KsUser.dll
+0x73E90000 - 0x73EEC000  DSOUND.DLL
+0x746B0000 - 0x746FB000  MSCTF.dll
+0x76340000 - 0x7635D000  imm32.dll
+0x76360000 - 0x763AA000  comdlg32.dll
+0x76590000 - 0x765A3000  cryptnet.dll
+0x76630000 - 0x766E4000  userenv.dll
+0x76B00000 - 0x76B2E000  winmm.dll
+0x76BF0000 - 0x76C1E000  WINTRUST.dll
+0x76C50000 - 0x76C78000  IMAGEHLP.dll
+0x76F20000 - 0x76F4D000  WLDAP32.dll
+0x76F90000 - 0x7700F000  CLBCATQ.DLL
+0x77010000 - 0x770E0000  COMRes.dll
+0x770F0000 - 0x7717C000  OLEAUT32.dll
+0x77180000 - 0x77227000  wininet.dll
+0x773A0000 - 0x774A2000  comctl32.dll
+0x774B0000 - 0x775EC000  ole32.dll
+0x77660000 - 0x77681000  NTMARTA.DLL
+0x77A50000 - 0x77AE5000  CRYPT32.dll
+0x77AF0000 - 0x77B02000  MSASN1.dll
+0x77BA0000 - 0x77BA7000  midimap.dll
+0x77BB0000 - 0x77BC5000  MSACM32.dll
+0x77BD0000 - 0x77BD8000  VERSION.dll
+0x77BE0000 - 0x77C38000  msvcrt.dll
+0x77D10000 - 0x77DA0000  user32.dll
+0x77DA0000 - 0x77E4C000  ADVAPI32.dll
+0x77E50000 - 0x77EE1000  RPCRT4.dll
+0x77EF0000 - 0x77F36000  GDI32.dll
+0x77F40000 - 0x77FB6000  SHLWAPI.dll
+0x77FC0000 - 0x77FD1000  secur32.dll
+0x7C800000 - 0x7C901000  kernel32.dll
+0x7C910000 - 0x7C9C6000  ntdll.dll
+0x7C9D0000 - 0x7D1EE000  SHELL32.dll
+
+
+----------------------------------------
+    Memory Dump
+----------------------------------------
+
+Code: 16 bytes starting at (EIP = 6F6FFD56)
+
+6F6FFD56: 8B 59 40 85  DB C7 45 0C  00 00 00 00  0F 84 7D 03  .Y@...E.......}.
+
+
+Stack: 1024 bytes starting at (ESP = 048DF810)
+
+* = addr  **                                                  *               
+048DF810: F0 FE 8D 04  0A 00 00 00  8C 13 33 09  98 A2 70 6F  ..........3...po
+048DF820: 00 00 00 00  00 00 00 00  00 00 00 00  0E 00 00 00  ................
+048DF830: FF FF FF FF  F7 44 0E 00  03 07 01 00  00 00 C8 9B  .....D..........
+048DF840: 03 00 00 00  00 00 00 00  08 00 00 00  FF FF FF FF  ................
+048DF850: F7 36 08 00  F2 23 CC 00  A8 F4 1C 00  69 1B A3 71  .6...#......i..q
+048DF860: EC F8 8D 04  06 00 00 00  08 07 33 09  06 00 00 00  ..........3.....
+048DF870: EC F8 8D 04  18 D2 1C 00  00 00 00 00  A8 F8 8D 04  ................
+048DF880: 9D A2 41 00  06 00 00 00  EC F8 8D 04  ED A2 41 00  ..A...........A.
+048DF890: 4C 07 33 09  02 00 00 00  06 00 00 00  00 00 00 00  L.3.............
+048DF8A0: 00 00 00 00  4C 07 33 09  BC F8 8D 04  2D B7 41 00  ....L.3.....-.A.
+048DF8B0: E0 08 60 05  FF FF FF FF  B0 FE 8D 04  DC 81 6F 6F  ..`...........oo
+048DF8C0: D8 F8 8D 04  DC F8 8D 04  E0 F8 8D 04  B8 00 FB 07  ................
+048DF8D0: 09 00 00 00  98 A2 70 6F  00 00 00 00  00 00 00 00  ......po........
+048DF8E0: 00 00 00 00  06 00 00 00  FF FF FF FF  F7 3B 06 00  .............;..
+048DF8F0: BE 02 14 00  00 00 14 00  A0 72 F0 04  EC F8 8D 04  .........r......
+048DF900: 68 83 66 06  30 FB 8D 04  18 EE 91 7C  38 07 92 7C  h.f.0......|8..|
+048DF910: FF FF FF FF  32 07 92 7C  AB 06 92 7C  EB 06 92 7C  ....2..|...|...|
+048DF920: 3A 00 00 00  68 83 66 06  00 00 00 00  00 00 00 00  :...h.f.........
+048DF930: 60 F9 8D 04  3B 20 01 00  50 F9 8D 04  10 00 00 00  `...; ..P.......
+048DF940: 00 00 00 00  00 00 00 00  7C F9 8D 04  00 00 14 00  ........|.......
+048DF950: 32 07 92 7C  05 00 00 00  78 07 14 00  00 00 14 00  2..|....x.......
+048DF960: 88 D1 15 00  54 F9 8D 04  7C FC 8D 04  98 FB 8D 04  ....T...|.......
+048DF970: 18 EE 91 7C  38 07 92 7C  FF FF FF FF  32 07 92 7C  ...|8..|....2..|
+048DF980: AB 06 92 7C  EB 06 92 7C  D0 4A 19 07  66 00 02 00  ...|...|.J..f...
+048DF990: 00 00 00 00  08 00 00 00  B8 00 09 09  C4 FA 8D 04  ................
+048DF9A0: 28 47 6B 0F  57 1E 40 00  90 B8 13 07  D8 02 14 00  (Gk.W.@.........
+048DF9B0: E4 F9 8D 04  00 00 14 00  32 07 92 7C  04 00 00 00  ........2..|....
+048DF9C0: 48 07 14 00  00 00 14 00  70 44 1A 00  BC F9 8D 04  H.......pD......
+048DF9D0: 04 FA 8D 04  00 00 14 00  32 07 92 7C  09 00 00 00  ........2..|....
+048DF9E0: 38 08 14 00  00 00 14 00  00 BC 0B 07  DC F9 8D 04  8...............
+048DF9F0: 38 4A 19 07  20 FC 8D 04  18 EE 91 7C  38 07 92 7C  8J.. ......|8..|
+048DFA00: FF FF FF FF  32 07 92 7C  AB 06 92 7C  EB 06 92 7C  ....2..|...|...|
+048DFA10: 3A 00 00 00  38 4A 19 07  00 00 00 00  00 00 00 00  :...8J..........
+048DFA20: 50 FA 8D 04  3B 20 01 00  40 FA 8D 04  10 00 00 00  P...; ..@.......
+048DFA30: 00 00 00 00  00 00 00 00  38 4A 19 07  05 10 91 7C  ........8J.....|
+048DFA40: 02 00 00 00  02 00 00 00  01 FD 8D 04  00 00 00 00  ................
+048DFA50: 00 00 00 00  00 00 00 00  6C FD 8D 04  91 5E 9D 71  ........l....^.q
+048DFA60: 38 4A 19 07  02 00 00 00  BF FC 8D 04  13 5E 9D 71  8J...........^.q
+048DFA70: CC 5C 9D 71  01 00 00 00  70 44 1A 00  00 00 00 00  .\.q....pD......
+048DFA80: 00 00 00 00  B8 FA 8D 04  00 00 14 00  32 07 92 7C  ............2..|
+048DFA90: 04 00 00 00  48 07 14 00  00 00 14 00  90 04 19 00  ....H...........
+048DFAA0: 90 FA 8D 04  02 00 05 A5  DC FA 8D 04  A3 16 A1 71  ...............q
+048DFAB0: B4 FB 8D 04  10 4B 19 07  38 4A 19 07  B0 FA 8D 04  .....K..8J......
+048DFAC0: 38 4A 19 07  AC FC 8D 04  E6 21 A1 71  EF D8 91 7C  8J.......!.q...|
+048DFAD0: 58 4D 9D 71  C0 2A 00 00  C8 25 00 00  00 00 00 00  XM.q.*...%......
+048DFAE0: 00 00 00 00  0C FB 8D 04  47 20 01 00  24 FB 8D 04  ........G ..$...
+048DFAF0: F8 00 00 00  00 00 00 00  00 00 00 00  7C FC 8D 04  ............|...
+048DFB00: 38 4A 19 07  8D 4D 9D 71  A3 D8 9D 71  58 75 A0 71  8J...M.q...qXu.q
+048DFB10: 02 00 00 00  01 00 00 00  3F 00 42 00  3C E9 45 00  ........?.B.<.E.
+048DFB20: B8 01 2D 09  C4 01 2D 09  40 FB 8D 04  52 1F 43 00  ..-...-.@...R.C.
+048DFB30: C4 01 2D 09  B8 01 2D 09  28 E9 45 00  B8 00 00 01  ..-...-.(.E.....
+048DFB40: 7D D5 91 7C  5A 9C 80 7C  18 11 00 00  64 FB 8D 04  }..|Z..|....d...
+048DFB50: 27 2C 40 00  53 2C 40 00  14 13 46 00  01 00 00 05  ',@.S,@...F.....
+048DFB60: 01 00 00 05  80 FB 8D 04  8F 2F 40 00  01 00 00 00  ........./@.....
+048DFB70: 01 00 00 00  0C 13 46 00  C8 00 00 01  01 00 00 00  ......F.........
+048DFB80: 98 FB 8D 04  E6 2F 40 00  01 00 00 05  02 00 00 00  ...../@.........
+048DFB90: 01 00 00 00  BB 2F 40 00  BC FB 8D 04  E7 23 44 00  ...../@......#D.
+048DFBA0: 00 00 00 00  FF FF FF FF  B8 00 09 09  B8 00 09 09  ................
+048DFBB0: 18 00 00 00  00 00 00 00  00 00 00 00  E4 FB 8D 04  ................
+048DFBC0: BA 02 6E 6F  D0 FB 8D 04  14 00 00 00  98 A2 70 6F  ..no..........po
+048DFBD0: 21 4C 72 00  2D 00 00 00  F0 0D 2B 09  4B 00 00 00  !Lr.-.....+.K...
+048DFBE0: 00 03 00 00  B8 00 FB 07  98 00 E0 05  40 FE 8D 04  ............@...
+048DFBF0: FA 43 6E 6F  2C FE 8D 04  30 FE 8D 04  34 FE 8D 04  .Cno,...0...4...
+048DFC00: 37 00 00 00  01 00 00 00  4D 61 70 73  5C 44 6F 77  7.......Maps\Dow
+
+
+------------------------------------------------------------------------------

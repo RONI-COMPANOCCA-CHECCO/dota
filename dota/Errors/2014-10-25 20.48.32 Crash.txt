@@ -1,0 +1,226 @@
+==============================================================================
+Warcraft III (build 6401)
+
+Exe:      d:\dota ingles\war3.exe
+Time:     Oct 25, 2014  8:48:32.032 PM
+User:     pc06
+Computer: PC06-PC
+------------------------------------------------------------------------------
+
+This application has encountered a critical error:
+
+FATAL ERROR!
+
+Program:	d:\dota ingles\war3.exe
+Exception:	0xC0000005 (ACCESS_VIOLATION) at 0023:6F7C765D
+
+The instruction at '0x6F7C765D' referenced memory at '0x00000008'.
+The memory could not be 'read'.
+
+
+War3Build: 1.26.0.6401
+Played Maps\Download\DotA v6.81c.w3x
+Player  0 The Sentinel      	Race NightElf	StartLoc -1
+Player  1 SpleeN (Ursa)     	Race NightElf	StartLoc  0
+Player  2 Artezzy!!xD (Batrider)	Race NightElf	StartLoc  1
+Player  3 Rabbit<3 (Goblin Shredder)	Race NightElf	StartLoc  2
+Player  4 facebook (Earthshaker)	Race NightElf	StartLoc  3
+Player  5 ¬EnmurE¬.l. (Viper)	Race NightElf	StartLoc  4
+Player  6 The Scourge       	Race Human	StartLoc -1
+Player  7 ²K†ZERO™ (Nortrom)	Race Undead	StartLoc  5
+Player  8 Ferrari (Phoenix) 	Race Undead	StartLoc  6
+Player  9 ÐrøGØR@†@ (Alchemist)	Race Undead	StartLoc  7
+Player 10 Faster  (Ogre Magi)	Race Undead	StartLoc  8
+Player 11 Erika (Mirana)    	Race Undead	StartLoc  9
+------------------------------------------------------------------------------
+
+----------------------------------------
+    x86 Registers
+----------------------------------------
+
+EAX=FFFFFFFF  EBX=2C5D0518  ECX=00000000  EDX=0A5614C8  ESI=0D060F60
+EDI=00000003  EBP=00000000  ESP=0018EF98  EIP=6F7C765D  FLG=00210246
+CS =0023      DS =002B      ES =002B      SS =002B      FS =0053      GS =002B
+
+
+----------------------------------------
+    Stack Trace (Manual)
+----------------------------------------
+
+Address  Frame    Logical addr  Module
+
+6F7C765D 00000000 0001:007C665D d:\dota ingles\Game.dll
+
+----------------------------------------
+    Stack Trace (Using DBGHELP.DLL)
+----------------------------------------
+
+6F7C765D Game.dll     GameMain+8117773 (0x00000000,0x00000000,0x00000000,0x00000000)
+
+
+----------------------------------------
+    Loaded Modules
+----------------------------------------
+
+0x00400000 - 0x0047D000  d:\dota ingles\war3.exe
+0x10000000 - 0x10012000  d:\dota ingles\warmpsv.mix
+0x15000000 - 0x15061000  d:\dota ingles\Storm.dll
+0x21100000 - 0x2115F000  d:\dota ingles\mss32.dll
+0x22600000 - 0x22616000  d:\dota ingles\redist\miles\Mssfast.m3d
+0x22700000 - 0x22717000  d:\dota ingles\redist\miles\Mssdolby.m3d
+0x22C00000 - 0x22C18000  d:\dota ingles\redist\miles\Msseax2.m3d
+0x24600000 - 0x24611000  d:\dota ingles\redist\miles\Reverb3.flt
+0x26F00000 - 0x26F2A000  d:\dota ingles\redist\miles\Mp3dec.asi
+0x5C1B0000 - 0x5C2B5000  C:\Windows\system32\d3d8.dll
+0x5D290000 - 0x5D32B000  C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_d08cc06a442b34fc\MSVCR80.dll
+0x5F1C0000 - 0x5F1D5000  C:\Windows\system32\Cabinet.dll
+0x5F1E0000 - 0x5F1E6000  C:\Windows\system32\SensApi.dll
+0x60000000 - 0x6005D000  d:\dota ingles\ijl15.dll
+0x65380000 - 0x653BD000  C:\Windows\SysWOW64\bcryptprimitives.dll
+0x653C0000 - 0x653D7000  C:\Windows\system32\bcrypt.dll
+0x653E0000 - 0x65418000  C:\Windows\system32\ncrypt.dll
+0x65710000 - 0x6572C000  C:\Windows\system32\cryptnet.dll
+0x65A90000 - 0x6690B000  C:\Windows\system32\nvd3dum.dll
+0x67170000 - 0x6717E000  C:\Windows\system32\DEVRTL.dll
+0x67290000 - 0x67296000  C:\Windows\system32\d3d8thk.dll
+0x69930000 - 0x69946000  C:\Windows\system32\GPAPI.dll
+0x6AF40000 - 0x6B02B000  C:\Windows\system32\dbghelp.dll
+0x6C250000 - 0x6C2C2000  C:\Windows\system32\DSOUND.DLL
+0x6E980000 - 0x6E987000  C:\Windows\system32\avrt.dll
+0x6EB50000 - 0x6EC45000  C:\Windows\System32\PROPSYS.dll
+0x6EC50000 - 0x6EC89000  C:\Windows\System32\MMDevApi.dll
+0x6EC90000 - 0x6ECC6000  C:\Windows\system32\AUDIOSES.DLL
+0x6F000000 - 0x6FBB5000  d:\dota ingles\Game.dll
+0x709E0000 - 0x70AC7000  C:\Windows\system32\DDRAW.dll
+0x70AD0000 - 0x70B98000  C:\Windows\system32\OPENGL32.dll
+0x70C90000 - 0x70C96000  C:\Windows\system32\DCIMAN32.dll
+0x70CA0000 - 0x70CC2000  C:\Windows\system32\GLU32.dll
+0x71380000 - 0x713B2000  C:\Windows\system32\WINMM.dll
+0x721D0000 - 0x7220B000  C:\Windows\system32\rsaenh.dll
+0x72210000 - 0x72226000  C:\Windows\system32\CRYPTSP.dll
+0x72D10000 - 0x72D4C000  C:\Windows\system32\mswsock.dll
+0x72D50000 - 0x72D71000  C:\Windows\system32\ntmarta.dll
+0x72D90000 - 0x72DA3000  C:\Windows\system32\dwmapi.dll
+0x72DB0000 - 0x72E30000  C:\Windows\system32\uxtheme.dll
+0x72EE0000 - 0x72EE5000  C:\Windows\System32\wshtcpip.dll
+0x73070000 - 0x73095000  C:\Windows\system32\powrprof.dll
+0x74FF0000 - 0x74FFB000  C:\Windows\system32\profapi.dll
+0x75000000 - 0x75017000  C:\Windows\system32\USERENV.dll
+0x75060000 - 0x750E4000  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_ec83dffa859149af\COMCTL32.dll
+0x750F0000 - 0x750F7000  C:\Windows\system32\WSOCK32.dll
+0x75100000 - 0x75109000  C:\Windows\system32\VERSION.dll
+0x75230000 - 0x7523C000  C:\Windows\syswow64\CRYPTBASE.dll
+0x75240000 - 0x752A0000  C:\Windows\syswow64\SspiCli.dll
+0x752A0000 - 0x752E6000  C:\Windows\syswow64\KERNELBASE.dll
+0x752F0000 - 0x754EB000  C:\Windows\syswow64\iertutil.dll
+0x754F0000 - 0x7557F000  C:\Windows\syswow64\OLEAUT32.dll
+0x75580000 - 0x75586000  C:\Windows\syswow64\NSI.dll
+0x75590000 - 0x75595000  C:\Windows\syswow64\PSAPI.DLL
+0x755A0000 - 0x75640000  C:\Windows\syswow64\ADVAPI32.dll
+0x75640000 - 0x757DD000  C:\Windows\syswow64\SETUPAPI.dll
+0x757E0000 - 0x7588C000  C:\Windows\syswow64\msvcrt.dll
+0x75920000 - 0x7656A000  C:\Windows\syswow64\SHELL32.dll
+0x76570000 - 0x76589000  C:\Windows\SysWOW64\sechost.dll
+0x76590000 - 0x7665C000  C:\Windows\syswow64\MSCTF.dll
+0x76660000 - 0x766B7000  C:\Windows\syswow64\SHLWAPI.dll
+0x766C0000 - 0x767DD000  C:\Windows\syswow64\CRYPT32.dll
+0x767E0000 - 0x7693C000  C:\Windows\syswow64\ole32.dll
+0x76940000 - 0x76985000  C:\Windows\syswow64\WLDAP32.dll
+0x76990000 - 0x7699C000  C:\Windows\syswow64\MSASN1.dll
+0x769D0000 - 0x769DA000  C:\Windows\syswow64\LPK.dll
+0x769E0000 - 0x76AD0000  C:\Windows\syswow64\RPCRT4.dll
+0x76AD0000 - 0x76BC5000  C:\Windows\syswow64\WININET.dll
+0x76BD0000 - 0x76C4B000  C:\Windows\syswow64\comdlg32.dll
+0x76C50000 - 0x76C62000  C:\Windows\syswow64\DEVOBJ.dll
+0x76C70000 - 0x76D80000  C:\Windows\syswow64\kernel32.dll
+0x76D80000 - 0x76DE0000  C:\Windows\syswow64\IMM32.dll
+0x76DE0000 - 0x76F16000  C:\Windows\syswow64\urlmon.dll
+0x76F20000 - 0x76F47000  C:\Windows\syswow64\CFGMGR32.dll
+0x76F50000 - 0x76FD3000  C:\Windows\syswow64\CLBCatQ.DLL
+0x76FE0000 - 0x77015000  C:\Windows\syswow64\WS2_32.dll
+0x77050000 - 0x77150000  C:\Windows\syswow64\USER32.dll
+0x77150000 - 0x771ED000  C:\Windows\syswow64\USP10.dll
+0x77250000 - 0x772E0000  C:\Windows\syswow64\GDI32.dll
+0x776E0000 - 0x77860000  C:\Windows\SysWOW64\ntdll.dll
+
+
+----------------------------------------
+    Memory Dump
+----------------------------------------
+
+Code: 16 bytes starting at (EIP = 6F7C765D)
+
+6F7C765D: 8B 45 08 8B  1C 30 03 C6  85 DB 74 29  8B 78 04 85  .E...0....t).x..
+
+
+Stack: 1024 bytes starting at (ESP = 0018EF98)
+
+* = addr                            **                                *       
+0018EF90: 00 00 00 00  47 01 00 00  60 0F 06 0D  18 05 5D 2C  ....G...`.....],
+0018EFA0: 00 00 00 00  00 00 00 00  12 A8 7B 6F  CD CC CC 3C  ..........{o...<
+0018EFB0: 28 F0 18 00  00 00 80 3E  00 00 80 3E  00 00 00 00  (......>...>....
+0018EFC0: 18 05 5D 2C  02 00 00 00  00 00 00 00  00 00 00 00  ..],............
+0018EFD0: 00 00 00 00  C8 14 56 0A  00 00 00 00  C8 14 56 0A  ......V.......V.
+0018EFE0: D0 14 56 0A  1C F1 18 00  7C 2A 7E 05  9D 59 4E 6F  ..V.....|*~..YNo
+0018EFF0: CD CC CC 3C  28 F0 18 00  00 00 80 3E  00 00 80 3E  ...<(......>...>
+0018F000: 00 00 00 00  D0 14 56 0A  02 00 00 00  00 00 00 00  ......V.........
+0018F010: 60 0F 06 0D  C8 14 56 0A  00 00 00 00  B4 27 7E 05  `.....V......'~.
+0018F020: 63 00 00 00  FF FF FF FF  00 00 00 00  00 00 00 00  c...............
+0018F030: 00 00 00 00  0D 6D 42 6F  63 00 00 00  18 05 5D 2C  .....mBoc.....],
+0018F040: CD CC CC 3C  0C C6 3B 6F  63 00 00 00  18 05 5D 2C  ...<..;oc.....],
+0018F050: CD CC CC 3C  DC 52 94 6F  CC F0 18 00  B8 D1 45 6F  ...<.R.o......Eo
+0018F060: 63 00 00 00  18 8C 06 0A  84 F0 18 00  A4 D1 45 6F  c.............Eo
+0018F070: 02 00 00 00  9C D1 45 6F  18 81 51 2C  88 00 DF 0D  ......Eo..Q,....
+0018F080: 08 00 00 00  CD CC CC 3C  00 00 00 00  05 00 00 00  .......<........
+0018F090: 00 00 00 00  00 00 00 00  48 5D 02 15  03 00 00 00  ........H]......
+0018F0A0: 18 05 5D 2C  E8 11 29 FB  C4 F5 E5 0A  3D 1B 4C 6F  ..],..).....=.Lo
+0018F0B0: C4 F5 E5 0A  00 00 00 00  1C 00 00 00  E8 01 00 00  ................
+0018F0C0: 63 00 00 00  18 8C 06 0A  84 F0 18 00  CC F9 A7 6F  c..............o
+0018F0D0: FE FF FF FF  E8 01 00 00  B0 00 FF 09  18 05 5D 2C  ..............],
+0018F0E0: E8 11 29 FB  B7 C7 45 6F  90 17 E4 0A  00 00 00 00  ..)...Eo........
+0018F0F0: 00 00 00 00  B9 08 00 00  B0 00 FF 09  0C 00 00 00  ................
+0018F100: C0 F0 18 00  B4 CB F3 02  50 01 34 0A  05 00 00 00  ........P.4.....
+0018F110: 01 00 00 00  D0 C5 3B 6F  DD FF 75 83  04 00 00 00  ......;o..u.....
+0018F120: AE EF 45 6F  18 81 51 2C  ED FF 75 83  00 00 00 00  ..Eo..Q,..u.....
+0018F130: 88 00 DF 0D  00 00 00 00  AC 00 DF 0D  F8 4B 51 2C  .............KQ,
+0018F140: 01 00 00 00  00 00 00 00  00 00 00 00  9C 00 00 00  ................
+0018F150: 00 00 00 00  00 00 00 00  00 00 C8 41  48 5D 02 15  ...........AH]..
+0018F160: 00 04 00 00  E2 5D 02 15  A0 00 2F 0A  D6 B7 45 6F  .....]..../...Eo
+0018F170: 88 00 DF 0D  A4 F1 18 00  93 A0 45 6F  41 FF 75 83  ..........EoA.u.
+0018F180: 09 00 00 00  A4 F1 18 00  CC F1 18 00  F8 65 87 6F  .............e.o
+0018F190: 00 00 00 00  4C 66 88 2C  5D FF 75 83  00 00 00 00  ....Lf.,].u.....
+0018F1A0: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0018F1B0: 00 00 00 00  01 00 00 00  01 00 00 00  76 B9 08 00  ............v...
+0018F1C0: 00 00 00 00  F0 F2 18 00  A8 E8 82 6F  FF FF FF FF  ...........o....
+0018F1D0: 03 FC 45 6F  48 E4 BF 19  7C F2 18 00  E0 93 04 00  ..EoH...|.......
+0018F1E0: 00 00 00 00  42 01 00 00  88 00 DF 0D  CC 00 14 09  ....B...........
+0018F1F0: C0 00 14 09  D4 B6 44 6F  48 E4 BF 19  00 00 00 00  ......DoH.......
+0018F200: 7C F2 18 00  E0 93 04 00  00 00 00 00  00 00 00 00  |...............
+0018F210: 7C F2 18 00  FC 65 7F 05  96 83 3A 6F  00 00 00 00  |....e....:o....
+0018F220: 7C F2 18 00  E0 93 04 00  00 00 00 00  00 00 00 00  |...............
+0018F230: 00 00 00 00  D4 32 15 09  00 00 00 00  24 0C 1F 09  .....2......$...
+0018F240: C4 A8 3B 6F  42 01 00 00  7C F2 18 00  FC 65 7F 05  ..;oB...|....e..
+0018F250: 00 00 00 00  00 00 00 00  AC 65 7F 05  55 58 44 6F  .........e..UXDo
+0018F260: 7C F2 18 00  FC 65 7F 05  00 00 00 00  00 00 00 00  |....e..........
+0018F270: AC 65 7F 05  FC 65 7F 05  AC 65 7F 05  00 00 00 00  .e...e...e......
+0018F280: F6 73 44 6F  FC 65 7F 05  00 00 00 00  AC 65 7F 05  .sDo.e.......e..
+0018F290: AC 65 7F 05  50 01 68 17  D0 65 7F 05  00 00 00 00  .e..P.h..e......
+0018F2A0: 50 01 68 17  D0 65 7F 05  AC 65 7F 05  F7 99 80 FA  P.h..e...e......
+0018F2B0: 33 50 44 6F  72 50 44 6F  00 00 00 00  AC 65 7F 05  3PDorPDo.....e..
+0018F2C0: D0 65 7F 05  50 01 68 17  82 7F 44 6F  11 FC 75 83  .e..P.h...Do..u.
+0018F2D0: FF FF FF FF  B8 83 1E 09  EC 67 F6 0B  88 00 D2 05  .........g......
+0018F2E0: 7C 83 1E 09  EC 67 F6 0B  88 00 D2 05  AC 65 7F 05  |....g.......e..
+0018F2F0: 50 F3 18 00  51 DE 82 6F  FF FF FF FF  64 82 44 6F  P...Q..o....d.Do
+0018F300: B8 83 1E 09  43 7C E1 F6  00 00 00 00  D1 FD 75 83  ....C|........u.
+0018F310: 7C 83 1E 09  7C 83 1E 09  9C 00 29 09  AC 65 7F 05  |...|.....)..e..
+0018F320: 78 65 74 2B  6C 67 61 2B  78 65 74 2B  00 00 00 00  xet+lga+xet+....
+0018F330: 9C E2 77 05  0C 72 AB 6F  00 00 00 00  00 00 00 00  ..w..r.o........
+0018F340: 00 00 00 00  00 00 00 00  FF FF FF FF  FF FF FF FF  ................
+0018F350: BC F3 18 00  A8 DE 82 6F  00 00 00 00  CB 82 44 6F  .......o......Do
+0018F360: 00 00 00 00  B4 27 7E 05  36 84 44 6F  54 71 E5 20  .....'~.6.DoTq. 
+0018F370: 54 71 E5 20  6C 0E 8D 0B  1C 99 33 17  FD A6 62 6F  Tq. l.....3...bo
+0018F380: 90 00 BF 0C  49 FD 75 83  9C 00 29 09  EC 67 F6 0B  ....I.u...)..g..
+0018F390: 90 00 BF 0C  EC 67 F6 0B  00 00 00 00  02 00 00 00  .....g..........
+
+
+------------------------------------------------------------------------------

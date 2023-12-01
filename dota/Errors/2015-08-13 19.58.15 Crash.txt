@@ -1,0 +1,245 @@
+==============================================================================
+Warcraft III (build 6401)
+
+Exe:      d:\juegos\doingles\war3.exe
+Time:     Aug 13, 2015  7:58:15.201 PM
+User:     pc
+Computer: PC-PC
+------------------------------------------------------------------------------
+
+This application has encountered a critical error:
+
+FATAL ERROR!
+
+Program:	d:\juegos\doingles\war3.exe
+Exception:	0xC0000005 (ACCESS_VIOLATION) at 001B:6F4728B0
+
+The instruction at '0x6F4728B0' referenced memory at '0x00000030'.
+The memory could not be 'read'.
+
+
+War3Build: 1.26.0.6401
+Played Maps\Download\DotA v6.81d.w3x
+Player  0 The Sentinel      	Race NightElf	StartLoc -1
+Player  1 courier (Undying) 	Race NightElf	StartLoc  0
+Player  2 nikev (Omniknight)	Race NightElf	StartLoc  1
+Player  3 jos (Huskar)      	Race NightElf	StartLoc  2
+Player  4 niupi (Krobelus)  	Race NightElf	StartLoc  3
+Player  5 dr3koo (Rexxar)   	Race NightElf	StartLoc  4
+Player  6 The Scourge       	Race Human	StartLoc -1
+Player  7 Tail-Fairy (Slardar)	Race Undead	StartLoc  5
+Player  8 Otaku (Spectre)   	Race Undead	StartLoc  6
+Player  9 GFGFMMHM          	Race Undead	StartLoc  7
+Player 10 N'avi-√êr√∏GOÄ† (Pudge)	Race Undead	StartLoc  8
+Player 11 posagf (Thrall)   	Race Undead	StartLoc  9
+------------------------------------------------------------------------------
+
+----------------------------------------
+    x86 Registers
+----------------------------------------
+
+EAX=00000000  EBX=0BBF05A4  ECX=FFFFFFFF  EDX=FFFFFFFF  ESI=08E9BE04
+EDI=04307006  EBP=1ACC7D54  ESP=0012F988  EIP=6F4728B0  FLG=00210246
+CS =001B      DS =0023      ES =0023      SS =0023      FS =003B      GS =0000
+
+
+----------------------------------------
+    Stack Trace (Manual)
+----------------------------------------
+
+Address  Frame    Logical addr  Module
+
+6F4728B0 1ACC7D54 0001:004718B0 d:\juegos\doingles\Game.dll
+00010DED 1ACC85E4 0000:00000000 <unknown>
+
+----------------------------------------
+    Stack Trace (Using DBGHELP.DLL)
+----------------------------------------
+
+6F4728B0 Game.dll     GameMain+4624480 (0x08CA2300,0x0BBF05A4,0x6F19684B,0x0BBF05A4)
+
+
+----------------------------------------
+    Loaded Modules
+----------------------------------------
+
+0x00400000 - 0x0047D000  d:\juegos\doingles\war3.exe
+0x03440000 - 0x03457000  C:\Windows\System32\mp3dmod.dll
+0x10000000 - 0x10012000  d:\juegos\doingles\warmpsv.mix
+0x15000000 - 0x15061000  d:\juegos\doingles\Storm.dll
+0x21100000 - 0x2115F000  d:\juegos\doingles\mss32.dll
+0x22600000 - 0x22616000  d:\juegos\doingles\redist\miles\Mssfast.m3d
+0x22700000 - 0x22717000  d:\juegos\doingles\redist\miles\Mssdolby.m3d
+0x22C00000 - 0x22C18000  d:\juegos\doingles\redist\miles\Msseax2.m3d
+0x24600000 - 0x24611000  d:\juegos\doingles\redist\miles\Reverb3.flt
+0x26F00000 - 0x26F2A000  d:\juegos\doingles\redist\miles\Mp3dec.asi
+0x60000000 - 0x6005D000  d:\juegos\doingles\ijl15.dll
+0x66180000 - 0x66FD9000  C:\Windows\system32\nvd3dum.dll
+0x6AE00000 - 0x6AF05000  C:\Windows\system32\d3d8.dll
+0x6E5F0000 - 0x6E6E1000  C:\Windows\System32\msmpeg2adec.dll
+0x6E6F0000 - 0x6E7BC000  C:\Windows\system32\D3DIM700.DLL
+0x6E7C0000 - 0x6E937000  C:\Windows\system32\quartz.dll
+0x6E940000 - 0x6EA27000  C:\Windows\system32\DDRAW.dll
+0x6EA30000 - 0x6EAF8000  C:\Windows\system32\OPENGL32.dll
+0x6EB20000 - 0x6EB43000  C:\Windows\eHome\ehTrace.dll
+0x6EB50000 - 0x6EB84000  C:\Windows\System32\mpg2splt.ax
+0x6EB90000 - 0x6EBC5000  C:\Windows\system32\qasf.dll
+0x6ED90000 - 0x6EDD0000  C:\Windows\system32\DShowRdpFilter.dll
+0x6EE40000 - 0x6EE47000  C:\Windows\system32\midimap.dll
+0x6EE50000 - 0x6EE64000  C:\Windows\system32\MSACM32.dll
+0x6EE70000 - 0x6EE78000  C:\Windows\system32\msacm32.drv
+0x6EE80000 - 0x6EEB6000  C:\Windows\system32\AUDIOSES.DLL
+0x6EEC0000 - 0x6EEC4000  C:\Windows\system32\ksuser.dll
+0x6EED0000 - 0x6EF00000  C:\Windows\system32\wdmaud.drv
+0x6F000000 - 0x6FBB5000  d:\juegos\doingles\Game.dll
+0x704B0000 - 0x704C4000  C:\Windows\system32\devenum.dll
+0x71E80000 - 0x71F1B000  C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4927_none_d08a205e442db5b5\MSVCR80.dll
+0x72A80000 - 0x72AA2000  C:\Windows\system32\GLU32.dll
+0x72AD0000 - 0x72AD6000  C:\Windows\system32\SensApi.dll
+0x72AE0000 - 0x72AFC000  C:\Windows\system32\cryptnet.dll
+0x72B30000 - 0x72C1B000  C:\Windows\system32\dbghelp.dll
+0x72CE0000 - 0x72CE6000  C:\Windows\system32\d3d8thk.dll
+0x730D0000 - 0x730DB000  C:\Windows\system32\msdmo.dll
+0x73150000 - 0x73157000  C:\Windows\system32\WSOCK32.dll
+0x73160000 - 0x73166000  C:\Windows\system32\DCIMAN32.dll
+0x73DA0000 - 0x73DD2000  C:\Windows\system32\WINMM.dll
+0x73F00000 - 0x73F0A000  C:\Windows\system32\slc.dll
+0x741F0000 - 0x74249000  C:\Windows\system32\mfplat.DLL
+0x74470000 - 0x744E2000  C:\Windows\system32\DSOUND.DLL
+0x74630000 - 0x74655000  C:\Windows\system32\powrprof.dll
+0x74720000 - 0x74727000  C:\Windows\system32\AVRT.dll
+0x74760000 - 0x74773000  C:\Windows\system32\dwmapi.dll
+0x74780000 - 0x747B9000  C:\Windows\system32\MMDevAPI.DLL
+0x74800000 - 0x74821000  C:\Windows\system32\ntmarta.dll
+0x74A80000 - 0x74AC0000  C:\Windows\system32\uxtheme.dll
+0x74AC0000 - 0x74BB5000  C:\Windows\system32\PROPSYS.dll
+0x75170000 - 0x75179000  C:\Windows\system32\VERSION.dll
+0x75200000 - 0x75205000  C:\Windows\System32\wshtcpip.dll
+0x75280000 - 0x7528D000  C:\Windows\system32\WTSAPI32.dll
+0x752C0000 - 0x752D6000  C:\Windows\system32\GPAPI.dll
+0x752E0000 - 0x752F7000  C:\Windows\system32\USERENV.dll
+0x753E0000 - 0x75409000  C:\Windows\system32\WINSTA.dll
+0x75410000 - 0x7544D000  C:\Windows\system32\bcryptprimitives.dll
+0x754D0000 - 0x7550B000  C:\Windows\system32\rsaenh.dll
+0x756F0000 - 0x7572C000  C:\Windows\system32\mswsock.dll
+0x75730000 - 0x75746000  C:\Windows\system32\CRYPTSP.dll
+0x75840000 - 0x75857000  C:\Windows\system32\bcrypt.dll
+0x75860000 - 0x75898000  C:\Windows\system32\ncrypt.dll
+0x75B80000 - 0x75B9A000  C:\Windows\system32\SspiCli.dll
+0x75C00000 - 0x75C0C000  C:\Windows\system32\CRYPTBASE.dll
+0x75C80000 - 0x75C8B000  C:\Windows\system32\profapi.dll
+0x75CF0000 - 0x75CFC000  C:\Windows\system32\MSASN1.dll
+0x75D30000 - 0x75D7A000  C:\Windows\system32\KERNELBASE.dll
+0x75D80000 - 0x75E9C000  C:\Windows\system32\CRYPT32.dll
+0x75EA0000 - 0x75EB2000  C:\Windows\system32\DEVOBJ.dll
+0x75EC0000 - 0x75EE7000  C:\Windows\system32\CFGMGR32.dll
+0x75EF0000 - 0x75F74000  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7600.16385_none_ebf82fc36c758ad5\COMCTL32.dll
+0x75F80000 - 0x76021000  C:\Windows\system32\RPCRT4.dll
+0x76030000 - 0x76036000  C:\Windows\system32\NSI.dll
+0x76040000 - 0x760E0000  C:\Windows\system32\ADVAPI32.dll
+0x76140000 - 0x76209000  C:\Windows\system32\USER32.dll
+0x76240000 - 0x762C3000  C:\Windows\system32\CLBCatQ.DLL
+0x762D0000 - 0x762EF000  C:\Windows\system32\IMM32.dll
+0x762F0000 - 0x763C4000  C:\Windows\system32\kernel32.dll
+0x763D0000 - 0x7652C000  C:\Windows\system32\ole32.dll
+0x76530000 - 0x765AB000  C:\Windows\system32\comdlg32.dll
+0x765B0000 - 0x7667C000  C:\Windows\system32\MSCTF.dll
+0x76680000 - 0x766CE000  C:\Windows\system32\GDI32.dll
+0x766D0000 - 0x76715000  C:\Windows\system32\WLDAP32.dll
+0x76720000 - 0x767BD000  C:\Windows\system32\USP10.dll
+0x767C0000 - 0x769B9000  C:\Windows\system32\iertutil.dll
+0x769C0000 - 0x76AF5000  C:\Windows\system32\urlmon.dll
+0x76B00000 - 0x76BAC000  C:\Windows\system32\msvcrt.dll
+0x76BB0000 - 0x76C3F000  C:\Windows\system32\OLEAUT32.dll
+0x76C40000 - 0x77889000  C:\Windows\system32\SHELL32.dll
+0x77890000 - 0x77A2D000  C:\Windows\system32\SETUPAPI.dll
+0x77A30000 - 0x77B24000  C:\Windows\system32\WININET.dll
+0x77B30000 - 0x77C6C000  C:\Windows\SYSTEM32\ntdll.dll
+0x77C70000 - 0x77C7A000  C:\Windows\system32\LPK.dll
+0x77C80000 - 0x77C99000  C:\Windows\SYSTEM32\sechost.dll
+0x77CA0000 - 0x77CA3000  C:\Windows\system32\Normaliz.dll
+0x77CB0000 - 0x77CE5000  C:\Windows\system32\WS2_32.dll
+0x77CF0000 - 0x77CF5000  C:\Windows\system32\PSAPI.DLL
+0x77D00000 - 0x77D57000  C:\Windows\system32\SHLWAPI.dll
+
+
+----------------------------------------
+    Memory Dump
+----------------------------------------
+
+Code: 16 bytes starting at (EIP = 6F4728B0)
+
+6F4728B0: 8B 40 30 85  C0 74 0A 83  78 20 00 75  04 8B 40 54  .@0..t..x .u..@T
+
+
+Stack: 1024 bytes starting at (ESP = 0012F988)
+
+* = addr                            **                                *       
+0012F980: 18 00 00 00  00 00 00 00  73 FD 02 6F  00 23 CA 08  ........s..o.#..
+0012F990: A4 05 BF 0B  4B 68 19 6F  A4 05 BF 0B  04 BE E9 08  ....Kh.o........
+0012F9A0: 83 37 04 6F  A4 05 BF 0B  04 BE E9 08  BC A7 C9 08  .7.o............
+0012F9B0: D1 3C 05 6F  A4 05 BF 0B  54 7D CC 1A  A8 FA 05 6F  .<.o....T}.....o
+0012F9C0: E8 3B A8 6F  FD A6 62 6F  E8 3B A8 6F  E0 47 1D B4  .;.o..bo.;.o.G..
+0012F9D0: 84 46 BD 0B  98 46 BD 0B  13 00 00 00  3C 3D 2D 0F  .F...F......<=-.
+0012F9E0: 00 00 00 00  20 00 00 00  00 23 CA 08  64 7C CC 1A  .... ....#..d|..
+0012F9F0: 64 7C CC 1A  64 7C CC 1A  5C FA 12 00  00 00 00 00  d|..d|..\.......
+0012FA00: A0 00 0E 0C  58 FA 12 00  88 0A 84 6F  00 00 00 00  ....X......o....
+0012FA10: D0 A7 62 6F  ED 0D 01 00  E8 3B A8 6F  84 46 BD 0B  ..bo.....;.o.F..
+0012FA20: 84 46 BD 0B  ED 1F 47 6F  ED 0D 01 00  E8 3B A8 6F  .F....Go.....;.o
+0012FA30: 84 46 BD 0B  A4 05 BF 0B  62 26 47 6F  ED 0D 01 00  .F......b&Go....
+0012FA40: E8 3B A8 6F  00 00 00 00  7C 44 1D B4  90 FA 12 00  .;.o....|D......
+0012FA50: 84 46 BD 0B  3C 3D 2D 0F  E4 FB 12 00  C8 F6 82 6F  .F..<=-........o
+0012FA60: 00 00 00 00  BB 2B 47 6F  3C 3D 2D 0F  A4 05 BF 0B  .....+Go<=-.....
+0012FA70: 00 00 00 00  90 FA 12 00  84 FD 47 6F  65 69 70 60  ..........Goeip`
+0012FA80: 90 FA 12 00  B8 00 9F 01  66 7E 4A 6F  90 FA 12 00  ........f~Jo....
+0012FA90: 73 69 6C 5E  6C 69 70 60  65 69 70 60  3C 3D 2D 0F  sil^lip`eip`<=-.
+0012FAA0: 98 94 13 0C  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0012FAB0: 00 00 00 00  FF FF FF FF  FF FF FF FF  9C 80 4A 6F  ..............Jo
+0012FAC0: 98 94 13 0C  B8 00 EE 04  3C 3D 2D 0F  F8 12 13 0C  ........<=-.....
+0012FAD0: 70 02 EE 04  13 00 00 00  E4 00 00 00  DE B5 00 00  p...............
+0012FAE0: 34 A5 08 00  00 00 00 00  57 88 4A 6F  13 00 00 00  4.......W.Jo....
+0012FAF0: 00 00 00 00  00 00 00 00  D8 2A 3B 0E  04 29 CB 08  .........*;..)..
+0012FB00: 3C 3D 2D 0F  5B 60 4A 6F  00 00 00 00  6C 65 72 5E  <=-.[`Jo....ler^
+0012FB10: 6C 65 72 5E  67 69 73 5E  00 00 00 00  00 00 00 00  ler^gis^........
+0012FB20: 00 00 00 00  00 00 00 00  00 00 00 00  00 00 00 00  ................
+0012FB30: FF FF FF FF  FF FF FF FF  EA 69 4A 6F  67 69 73 5E  .........iJogis^
+0012FB40: 00 00 00 00  55 9A 75 43  D8 2A 3B 0E  14 01 EE 04  ....U.uC.*;.....
+0012FB50: 98 E4 46 6F  D8 2A 3B 0E  CC 00 EE 04  54 E9 46 6F  ..Fo.*;.....T.Fo
+0012FB60: 0C 01 EE 04  CC 00 EE 04  55 9A 75 43  21 EA 46 6F  ........U.uC!.Fo
+0012FB70: B8 00 EE 04  0C 02 C9 08  6C FC 12 00  55 9A 75 43  ........l...U.uC
+0012FB80: 00 00 80 3F  00 00 00 00  9B F3 46 6F  97 0C 47 6F  ...?......Fo..Go
+0012FB90: 6C FC 12 00  C4 85 CA 08  04 29 CB 08  58 49 2F 6F  l........)..XI/o
+0012FBA0: BE 75 53 6F  FD A6 62 6F  58 FC 12 00  80 45 1D B4  .uSo..boX....E..
+0012FBB0: 58 FC 12 00  BC 00 47 08  05 00 00 00  00 00 00 00  X.....G.........
+0012FBC0: 00 00 00 00  42 00 00 00  C4 85 CA 08  44 43 CE 1E  ....B.......DC..
+0012FBD0: 54 3D CE 1E  54 3D CE 1E  29 E6 7A 6F  00 00 00 00  T=..T=..).zo....
+0012FBE0: 00 00 00 00  70 FC 12 00  88 0A 84 6F  00 00 00 00  ....p......o....
+0012FBF0: D0 A7 62 6F  92 00 09 40  58 FC 12 00  58 FC 12 00  ..bo...@X...X...
+0012FC00: 80 07 97 6F  A1 9A 62 6F  92 00 09 40  58 FC 12 00  ...o..bo...@X...
+0012FC10: B8 00 47 08  F7 78 53 6F  58 FC 12 00  04 00 00 00  ..G..xSoX.......
+0012FC20: B0 00 47 08  B8 00 47 08  85 37 55 6F  58 FC 12 00  ..G...G..7UoX...
+0012FC30: 04 42 1D B4  D0 FC 12 00  B0 00 47 08  00 00 00 00  .B........G.....
+0012FC40: 20 01 07 05  02 00 00 00  00 00 00 00  00 00 00 00   ...............
+0012FC50: 00 00 00 00  0F 00 00 00  E4 80 95 6F  00 00 00 00  ...........o....
+0012FC60: 92 00 09 40  00 00 00 00  00 00 00 00  0A D7 A3 3B  ...@...........;
+0012FC70: B8 FC 12 00  38 75 83 6F  00 00 00 00  13 39 55 6F  ....8u.o.....9Uo
+0012FC80: 19 00 00 00  48 01 09 05  3D 25 63 6F  A0 42 1D B4  ....H...=%co.B..
+0012FC90: 88 00 07 05  88 00 07 05  71 3D FC 00  05 00 00 00  ........q=......
+0012FCA0: 48 01 09 05  E8 00 09 05  98 00 07 05  00 00 00 00  H...............
+0012FCB0: 88 00 07 05  01 00 00 00  78 FF 12 00  38 11 84 6F  ........x...8..o
+0012FCC0: 00 00 00 00  8B D7 62 6F  D0 FC 12 00  90 C2 75 3C  ......bo......u<
+0012FCD0: 90 C2 75 3C  71 3D FC 00  7C 03 63 6F  64 28 34 76  ..u<q=..|.cod(4v
+0012FCE0: 00 00 00 6F  E9 19 34 76  37 18 34 76  00 00 00 00  ...o..4v7.4v....
+0012FCF0: 00 00 00 00  45 6E 67 69  6E 65 20 65  35 34 00 77  ....Engine e54.w
+0012FD00: 60 15 6C 02  64 28 34 76  1C 49 B7 77  C4 6A D3 75  `.l.d(4v.I.w.j.u
+0012FD10: F4 43 00 00  F4 43 00 00  28 FD 12 00  DF 05 34 76  .C...C..(.....4v
+0012FD20: 2C 5A B7 77  AA 67 D3 75  FC 40 00 00  00 00 00 00  ,Z.w.g.u.@......
+0012FD30: E9 19 34 76  DC 42 1D B4  51 04 63 6F  01 00 00 00  ..4v.B..Q.co....
+0012FD40: C4 98 00 6F  64 3A 5C 6A  75 65 67 6F  73 5C 64 6F  ...od:\juegos\do
+0012FD50: 69 6E 67 6C  65 73 5C 4C  6F 67 73 00  65 78 65 00  ingles\Logs.exe.
+0012FD60: 00 FE 12 00  C7 EE B8 77  0E 6D B8 77  50 EC B8 77  .......w.m.wP..w
+0012FD70: C2 9A 2B 77  70 6B 45 00  00 00 00 6F  FF FF 00 00  ..+wpkE....o....
+0012FD80: 00 00 00 6F  44 00 00 00  50 FE 12 00  78 FF 12 00  ...oD...P...x...
+
+
+------------------------------------------------------------------------------
