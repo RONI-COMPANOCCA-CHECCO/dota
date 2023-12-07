@@ -1,0 +1,22 @@
+Con este instalador puedes entrar al servidor de Matrix:
+Starcraft, Gunbound TH, Warcraft II BNE, Warcraft III ROC & FT, Diablo I & II LOD
+Si tienes alguno de esos juegos.
+Si no los tienes entra a http://peru.servegame.com para como bajarlos
+Este instalador cuenta con un parche de Warcraft III cualquier version en caso de que tuvieras el War3 y hubieras corrido el registro y aún asi no entra se resuelve el problema.
+Para que el parche de Warcraft III funcione correctamente debes instalar este dentro del directorio de Warcraft III. Usualmente C:\Archivos de Programa\Warcraft III
+Para entrar al servidor con Diablo I necesitas la version 1.08
+Con Warcraft II BNE la version 2.02
+Con Starcraft la version 1.13f (si no hay problemas de conexion)
+Con Diablo II LOD la version 1.10M
+Puedes encontrar informacion en http://peru.servegame.com/BNETMTRX/ y foro
+Para problemas dentro del servidor entra al canal Soporte o al portal http://peru.servegame.com/
+
+PORTAL
+http://peru.servegame.com
+GUNBOUND
+http://peru.servegame.com/GBMTRX/
+BATTLE.NET
+http://peru.servegame.com/BNETMTRX/
+
+GL HF
+
